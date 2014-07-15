@@ -1,0 +1,36 @@
+{
+  "name": "docpad-plugin-browser-sync",
+  "version": "2.0.0",
+  "description": "DocPad plugin that adds browser sync support",
+  "homepage": "https://github.com/terminalpixel/docpad-plugin-browser-sync",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "something",
+    "somethingelse"
+  ],
+  "author": "Grant Richmond <grant@terminalpixel.co.uk> (http://www.terminalpixel.co.uk/)",
+  "maintainers": [
+    "Grant Richmond <grant@terminalpixel.co.uk> (https://github.com/terminalpixel)"
+  ],
+  "contributors": [
+    "Grant Richmond <grant@terminalpixel.co.uk> (https://github.com/terminalpixel)"
+  ],
+  "bugs": {
+    "url": "https://github.com/terminalpixel/docpad-plugin-browser-sync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terminalpixel/docpad-plugin-browser-sync.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "main": "./src/browser-sync.plugin.coffee",
+  "dependencies": {
+    "browser-sync": "^1.2.1"
+  }
+}
