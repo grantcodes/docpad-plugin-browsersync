@@ -2,3 +2,21 @@
 
 Injects BrowserSync into DocPad for live reload functionality and cross device testing.
 
+## Installation
+
+    docpad install browser-sync
+
+## Usage
+
+By default BrowserSync will be started as a proxy to your DocPad site.
+
+You can overwrite the default options using any of the available [BrowserSync options](http://www.browsersync.io/docs/options/)
+
+    plugins:
+        browserSync:
+            open: true
+            ghostMode:
+                clicks: true
+                location: true
+                forms: true
+                scroll: true

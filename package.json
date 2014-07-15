@@ -6,8 +6,8 @@
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "browser-sync",
+    "livereload"
   ],
   "author": "Grant Richmond <grant@terminalpixel.co.uk> (http://www.terminalpixel.co.uk/)",
   "maintainers": [
