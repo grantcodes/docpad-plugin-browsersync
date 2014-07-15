@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-browser-sync",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "DocPad plugin that adds browser sync support",
   "homepage": "https://github.com/terminalpixel/docpad-plugin-browser-sync",
   "keywords": [
@@ -32,6 +32,11 @@
   "main": "./src/browser-sync.plugin.coffee",
   "dependencies": {
     "browser-sync": "^1.2.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "docpad": "6",
+    "projectz": "~0.3.13"
   },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
