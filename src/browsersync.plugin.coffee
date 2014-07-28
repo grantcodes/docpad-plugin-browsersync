@@ -3,7 +3,7 @@ module.exports = (BasePlugin) ->
     # Define Plugin
     class BrowserSyncPlugin extends BasePlugin
         # Browser Sync
-        name: 'browserSync'
+        name: 'browsersync'
         config:
             files: false
             open: false
@@ -19,5 +19,6 @@ module.exports = (BasePlugin) ->
             @browserSync(bsConfig)
 
         generateAfter: ->
-            @browserSync.reload()
+            if @browserSync?
+                @browserSync.reload()
             @

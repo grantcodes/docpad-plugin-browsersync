@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-browsersync",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "description": "DocPad plugin that adds browser sync support",
   "homepage": "https://github.com/terminalpixel/docpad-plugin-browser-sync",
   "keywords": [
@@ -29,7 +29,7 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "main": "./out/browser-sync.plugin.js",
+  "main": "./out/browsersync.plugin.js",
   "dependencies": {
     "browser-sync": "^1.2.1"
   },
