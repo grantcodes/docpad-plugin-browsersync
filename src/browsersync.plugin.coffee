@@ -11,8 +11,9 @@ module.exports = (BasePlugin) ->
         serverAfter: (opts) ->
             address = opts.serverHttp.address()
             serverHostname = address.address
+            serverHostname = 'localhost' if serverHostname == '::'
             serverPort = address.port
-            serverLocation = "http://" + serverHostname + ":" + serverPort + "/";
+            serverLocation = 'http://' + serverHostname + ':' + serverPort + '/';
             @browserSync = require('browser-sync')
             bsConfig = @getConfig()
             bsConfig.proxy = serverLocation
